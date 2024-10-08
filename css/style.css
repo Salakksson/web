@@ -1,0 +1,45 @@
+@define-color bg rgba(26, 27, 38, 0.4);
+@define-color bg-alt #1a1b26;
+@define-color text #b16186;
+:root 
+{
+    --bg:#1a1b26;
+    --border:#b16186;
+}
+
+* {
+  font-family: "SauceCodePro Nerd Font Propo", "JetBrainsMono Nerd Font", sans-serif;
+  /* font-size: 17px; */
+  font-weight: 900;
+  background-color: var(--bg);
+  color: #f5f5f5;
+
+  padding: 5px, 5px;
+}
+
+h1
+{
+    text-align: center;
+    border: 5px solid var(--bg);
+}
+
+#page
+{
+    margin: auto;
+    width: 80%;
+    min-height: 95vh;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: var(--border);
+    padding: 10px;
+
+}
+
+code 
+{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: var(--border);
+    min-width: 80%;
+
+}
